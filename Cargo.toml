@@ -1,0 +1,12 @@
+[package]
+name = "bored"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iso8601-duration = "0.2.0"
+open = "5.3.0"
+rand = "0.8.5"
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.122"
+rusqlite = { version = "0.32.0", features = ["bundled"] }
